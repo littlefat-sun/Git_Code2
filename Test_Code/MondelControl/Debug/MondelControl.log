@@ -1,0 +1,119 @@
+﻿生成启动时间为 2016/11/15 19:36:35。
+     1>项目“C:\Users\Administrator\Desktop\CommandListener\MondelControl\MondelControl.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\MondelControl.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt rayselecttool.cpp test.cpp
+         test.cpp
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(1): error C2653: “CMatrix3”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(1): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(4): error C2065: “Real”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(4): error C2146: 语法错误: 缺少“;”(在标识符“fCos”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(4): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(4): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(5): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(5): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(5): error C2065: “fYAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(5): error C3861: “Cos”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(6): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(6): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(6): error C2065: “fYAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(6): error C3861: “Sin”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(7): error C2065: “CMatrix3”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(7): error C2146: 语法错误: 缺少“;”(在标识符“kXMat”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(7): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(7): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(7): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(7): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(7): error C3861: “kXMat”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(8): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(8): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(8): error C2065: “fPAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(8): error C3861: “Cos”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(9): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(9): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(9): error C2065: “fPAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(9): error C3861: “Sin”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(10): error C2065: “CMatrix3”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(10): error C2146: 语法错误: 缺少“;”(在标识符“kYMat”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(10): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(10): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(10): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(10): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(10): error C3861: “kYMat”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(11): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(11): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(11): error C2065: “fRAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(11): error C3861: “Cos”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(12): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(12): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(12): error C2065: “fRAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(12): error C3861: “Sin”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(13): error C2065: “CMatrix3”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(13): error C2146: 语法错误: 缺少“;”(在标识符“kZMat”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(13): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(13): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(13): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(13): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(13): error C3861: “kZMat”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(14): error C2355: “this”: 只能在非静态成员函数的内部引用
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(14): error C2065: “kXMat”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(14): error C2065: “kYMat”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(14): error C2065: “kZMat”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(16): error C2653: “CMatrix3”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(16): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(16): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(19): error C2065: “Real”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(19): error C2146: 语法错误: 缺少“;”(在标识符“fCos”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(19): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(19): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(20): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(20): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(20): error C2065: “fYAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(20): error C3861: “Cos”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(21): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(21): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(21): error C2065: “fYAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(21): error C3861: “Sin”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(22): error C2065: “CMatrix3”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(22): error C2146: 语法错误: 缺少“;”(在标识符“kXMat”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(22): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(22): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(22): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(22): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(22): error C3861: “kXMat”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(23): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(23): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(23): error C2065: “fPAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(23): error C3861: “Cos”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(24): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(24): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(24): error C2065: “fPAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(24): error C3861: “Sin”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(25): error C2065: “CMatrix3”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(25): error C2146: 语法错误: 缺少“;”(在标识符“kYMat”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(25): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(25): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(25): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(25): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(25): error C3861: “kYMat”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(26): error C2065: “fCos”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(26): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(26): error C2065: “fRAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(26): error C3861: “Cos”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(27): error C2065: “fSin”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(27): error C2653: “CMath”: 不是类或命名空间名称
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(27): error C2065: “fRAngle”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(27): error C3861: “Sin”: 找不到标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(28): error C2065: “CMatrix3”: 未声明的标识符
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(28): error C2146: 语法错误: 缺少“;”(在标识符“kZMat”的前面)
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\test.cpp(28): fatal error C1003: 错误计数超过 100；正在停止编译
+         rayselecttool.cpp
+     1>c:\users\administrator\desktop\commandlistener\mondelcontrol\rayselecttool.cpp(1): fatal error C1083: 无法打开包括文件:“rayselecttool.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\Users\Administrator\Desktop\CommandListener\MondelControl\MondelControl.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.41

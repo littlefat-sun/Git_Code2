@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/11/15 19:36:36。
+     1>项目“C:\Users\Administrator\Desktop\CommandListener\GSceneTest\GSceneTest.vcxproj”在节点 5 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在对“Debug\GSceneTest.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /ID:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /ID:\Qt\4.8.4\include\qtmain /ID:\Qt\4.8.4\include\QtCore /ID:\Qt\4.8.4\include\QtGui /I.\ /IC:\Users\Administrator\Desktop\CommandListener\GScene /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_gscenetest.cpp gscenetest.cpp main.cpp
+         moc_gscenetest.cpp
+     1>已完成生成项目“C:\Users\Administrator\Desktop\CommandListener\GSceneTest\GSceneTest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.64

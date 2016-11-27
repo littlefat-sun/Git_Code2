@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/11/15 19:36:35。
+     1>项目“C:\Users\Administrator\Desktop\CommandListener\Test\Test.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Test.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\administrator\desktop\commandlistener\test\main.cpp(48): error C2385: 对“display”的访问不明确
+                 可能是“display”(位于基“Base1”中)
+                 也可能是“display”(位于基“Base2”中)
+     1>c:\users\administrator\desktop\commandlistener\test\main.cpp(48): error C3861: “display”: 找不到标识符
+     1>已完成生成项目“C:\Users\Administrator\Desktop\CommandListener\Test\Test.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.70

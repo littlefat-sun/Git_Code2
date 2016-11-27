@@ -1,0 +1,72 @@
+﻿生成启动时间为 2016/11/15 19:36:36。
+     1>项目“C:\Users\Administrator\Desktop\CommandListener\CommandListener\CommandListener.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在对“Debug\CommandListener.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\CommandListener\Bin\\CommandListener.dll" /NOLOGO /LIBPATH:D:\Qt\4.8.4\lib qtmaind.lib QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CommandListener.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\CommandListener\Bin\CommandListener.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\CommandListener\Lib" /MACHINE:X86 /DLL Debug\commandlistener.obj
+         Debug\GAdminDlg.obj
+         Debug\PluginsManager.obj
+     1>GAdminDlg.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDialog::QDialog(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QDialog@@QAE@PAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)，该符号在函数 "public: __thiscall GAdminDlg::GAdminDlg(class CustomScene *)" (??0GAdminDlg@@QAE@PAVCustomScene@@@Z) 中被引用
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QDialog::metaObject(void)const " (?metaObject@QDialog@@UBEPBUQMetaObject@@XZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QDialog::qt_metacast(char const *)" (?qt_metacast@QDialog@@UAEPAXPBD@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QDialog::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QDialog@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QWidget::event(class QEvent *)" (?event@QWidget@@MAE_NPAVQEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QDialog::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QDialog@@MAE_NPAVQObject@@PAVQEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QDialog::setVisible(bool)" (?setVisible@QDialog@@UAEX_N@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QDialog::sizeHint(void)const " (?sizeHint@QDialog@@UBE?AVQSize@@XZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QDialog::minimumSizeHint(void)const " (?minimumSizeHint@QDialog@@UBE?AVQSize@@XZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QWidget::heightForWidth(int)const " (?heightForWidth@QWidget@@UBEHH@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::wheelEvent(class QWheelEvent *)" (?wheelEvent@QWidget@@MAEXPAVQWheelEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QDialog::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QDialog@@MAEXPAVQKeyEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QWidget@@MAEXPAVQKeyEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::focusInEvent(class QFocusEvent *)" (?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::enterEvent(class QEvent *)" (?enterEvent@QWidget@@MAEXPAVQEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::leaveEvent(class QEvent *)" (?leaveEvent@QWidget@@MAEXPAVQEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::paintEvent(class QPaintEvent *)" (?paintEvent@QWidget@@MAEXPAVQPaintEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::moveEvent(class QMoveEvent *)" (?moveEvent@QWidget@@MAEXPAVQMoveEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QDialog::resizeEvent(class QResizeEvent *)" (?resizeEvent@QDialog@@MAEXPAVQResizeEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QDialog::closeEvent(class QCloseEvent *)" (?closeEvent@QDialog@@MAEXPAVQCloseEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QDialog::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QDialog@@MAEXPAVQContextMenuEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::tabletEvent(class QTabletEvent *)" (?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::actionEvent(class QActionEvent *)" (?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dropEvent(class QDropEvent *)" (?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QDialog::showEvent(class QShowEvent *)" (?showEvent@QDialog@@MAEXPAVQShowEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::hideEvent(class QHideEvent *)" (?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QWidget::winEvent(struct tagMSG *,long *)" (?winEvent@QWidget@@MAE_NPAUtagMSG@@PAJ@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::changeEvent(class QEvent *)" (?changeEvent@QWidget@@MAEXPAVQEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QWidget@@MAEXPAVQInputMethodEvent@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QWidget::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QWidget@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QWidget::focusNextPrevChild(bool)" (?focusNextPrevChild@QWidget@@MAE_N_N@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::styleChange(class QStyle &)" (?styleChange@QWidget@@MAEXAAVQStyle@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::enabledChange(bool)" (?enabledChange@QWidget@@MAEX_N@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::paletteChange(class QPalette const &)" (?paletteChange@QWidget@@MAEXABVQPalette@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::fontChange(class QFont const &)" (?fontChange@QWidget@@MAEXABVQFont@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::windowActivationChange(bool)" (?windowActivationChange@QWidget@@MAEX_N@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::languageChange(void)" (?languageChange@QWidget@@MAEXXZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QDialog::done(int)" (?done@QDialog@@UAEXH@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QDialog::accept(void)" (?accept@QDialog@@UAEXXZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QDialog::reject(void)" (?reject@QDialog@@UAEXXZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QWidget::devType(void)const " (?devType@QWidget@@UBEHXZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QPaintEngine * __thiscall QWidget::paintEngine(void)const " (?paintEngine@QWidget@@UBEPAVQPaintEngine@@XZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct HDC__ * __thiscall QWidget::getDC(void)const " (?getDC@QWidget@@UBEPAUHDC__@@XZ)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QWidget::releaseDC(struct HDC__ *)const " (?releaseDC@QWidget@@UBEXPAUHDC__@@@Z)
+     1>GAdminDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall QWidget::metric(enum QPaintDevice::PaintDeviceMetric)const " (?metric@QWidget@@MBEHW4PaintDeviceMetric@QPaintDevice@@@Z)
+     1>GAdminDlg.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QDialog::~QDialog(void)" (__imp_??1QDialog@@UAE@XZ)，该符号在函数 "public: virtual __thiscall GAdminDlg::~GAdminDlg(void)" (??1GAdminDlg@@UAE@XZ) 中被引用
+     1>PluginsManager.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall CustomScene::addCommandListener(class ICommandListener *)" (?addCommandListener@CustomScene@@QAEXPAVICommandListener@@@Z)，该符号在函数 "public: void __thiscall PluginsManager::initPlugins(void)" (?initPlugins@PluginsManager@@QAEXXZ) 中被引用
+     1>C:\Users\Administrator\Desktop\CommandListener\Bin\\CommandListener.dll : fatal error LNK1120: 55 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Administrator\Desktop\CommandListener\CommandListener\CommandListener.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.69

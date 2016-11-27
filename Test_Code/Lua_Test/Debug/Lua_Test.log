@@ -1,0 +1,22 @@
+﻿生成启动时间为 2016/11/15 19:36:34。
+     1>项目“C:\Users\Administrator\Desktop\CommandListener\Lua_Test\Lua_Test.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Lua_Test.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\CommandListener\Debug\Lua_Test.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lua_Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\CommandListener\Debug\Lua_Test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\CommandListener\Debug\Lua_Test.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 _lua_close，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _lua_tonumberx，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _lua_isnumber，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _lua_tolstring，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _lua_isstring，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _lua_pushnumber，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _lua_pushstring，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _luaL_newstate，该符号在函数 _main 中被引用
+     1>C:\Users\Administrator\Desktop\CommandListener\Debug\Lua_Test.exe : fatal error LNK1120: 8 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Administrator\Desktop\CommandListener\Lua_Test\Lua_Test.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.52
